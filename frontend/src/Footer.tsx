@@ -16,7 +16,7 @@ const [input, setInput] = useState<string>("")
             <Link to="/todolist">ToDos-List</Link>
             &nbsp;&nbsp;&nbsp;
             Add a new one:&nbsp;
-            <input size="80" placeholder="description" value={input}
+            <input size={80} placeholder="description" value={input}
                    onChange={(event) => {
                        setInput(event.target.value)
                    }}/>
