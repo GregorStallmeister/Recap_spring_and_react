@@ -9,6 +9,10 @@ export function Home() {
     return (
         <div>
             This is the Home page!
+            <br/>
+            &nbsp;
+            <br/>
+            Here no further content is provided.
         </div>
     )
 }
